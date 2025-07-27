@@ -1,0 +1,20 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore environment files
+.env
+
+# Ignore all files (if needed, but not common to use this unless you're whitelisting some files)
+# *    ← This would ignore everything, not usually recommended unless intentional
+
+# If you really want to ignore all but a few files, use `!` to whitelist
+# Example:
+# *
+# !src/
+# !package.json
